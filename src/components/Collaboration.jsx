@@ -22,7 +22,7 @@ const Collaboration = () => {
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
                 {item.text && (
-                  <p className="body-2 mt-3 text-n-4 ">{item.text}</p>
+                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
                 )}
               </li>
             ))}
@@ -47,7 +47,7 @@ const Collaboration = () => {
                 </div>
               </div>
             </div>
-            <ul>
+            <ul> {/* Mapping of the apps and icons for circle display + rotate 45deg */}
               {collabApps.map((app, index) => (
                 <li className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${ index * 45}`} key={app.id}>
                   <div className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${index * 45} `}>
