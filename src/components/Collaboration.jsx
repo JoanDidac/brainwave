@@ -1,4 +1,4 @@
-import { collabApps, collabContent, collabText } from "../constants";
+import { collabApps, collabContent, collabText , collabText2 } from "../constants";
 import Section from "./Section";
 import { brainwaveSymbol, check } from "../assets";
 import Button from "./Button";
@@ -10,7 +10,7 @@ const Collaboration = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
-        <div className="max-w-[25rem]">
+        <div className="max-w-[25rem] translate-x-[2.5rem] translate-y-[1.3rem]">
           <h2 className="h2 mb-4 md:mb-8 ">
             AI Chat app for seamless collaboration
           </h2>
@@ -31,8 +31,8 @@ const Collaboration = () => {
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4 ">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            {collabText}
+          <p className="body-2 mb-8 mt-8 text-n-4 md:mb-16 md:mt-7 md:w-[28rem] mx-auto lg:mb-24 lg:w-[25rem] lg:mx-auto">
+            {collabText2}
           </p>
           <div className="mt-4 relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
             <div className=" flex w-60 aspect-square m-auto border border-n-6 rounded-full ">

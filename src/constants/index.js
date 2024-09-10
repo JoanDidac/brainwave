@@ -135,6 +135,9 @@ export const roadmap = [
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
+export const collabText2 = 
+"Unlock unparalleled productivity with Brainwave’s AI-powered chat app, designed for seamless integration and flawless team collaboration."  
+
 export const collabContent = [
   {
     id: "0",
