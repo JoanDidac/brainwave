@@ -2,6 +2,7 @@
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
 
+
 export default {
   content: [
     "./index.html",
