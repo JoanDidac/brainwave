@@ -62,9 +62,9 @@ const Hero = () => {
                               {/* md:h-[2.75rem] */}
                               
                 <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem]bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex  ">
+                  <ul className="hidden absolute -left-[5.5rem]bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex  xl:translate-x-[-5.5rem] xl:translate-y-[20rem]">
                     {" "}
-                    {/*translate-x-[-5.5rem]*/}
+                    
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
                         <img src={icon} width={24} height={25} alt={icon} />
@@ -84,7 +84,7 @@ const Hero = () => {
             </div>
             <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top[104%]">
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
               className="w-full"
