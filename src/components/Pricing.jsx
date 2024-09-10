@@ -1,6 +1,6 @@
 
 import { smallSphere, stars } from "../assets";
-import { pricing } from "../constants";
+
 import Section from "./Section";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
