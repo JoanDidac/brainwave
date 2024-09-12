@@ -10,7 +10,7 @@ const Collaboration = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
-        <div className="max-w-[25rem] translate-x-[2.5rem] translate-y-[1.3rem]">
+        <div className="max-w-[25rem] lg:translate-x-[2.5rem] lg:translate-y-[1.3rem]">
           <h2 className="h2 mb-4 md:mb-8 ">
             AI Chat app for seamless collaboration
           </h2>
@@ -30,12 +30,12 @@ const Collaboration = () => {
           <Button>Try it now</Button>
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] mt-4 ">
+        <div className="lg:ml-auto xl:w-[38rem] mt-4">
           <p className="body-2 mb-8 mt-8 text-n-4 md:mb-16 md:mt-7 md:w-[28rem] mx-auto lg:mb-24 lg:w-[25rem] lg:mx-auto">
             {collabText2}
           </p>
           <div className="mt-4 relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
-            <div className=" flex w-60 aspect-square m-auto border border-n-6 rounded-full ">
+            <div className=" flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                   <img

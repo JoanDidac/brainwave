@@ -13,7 +13,7 @@ const CompanyLogos = ({ className }) => {
                         key={index}
                     >
                         <img
-                            className="xl:max-w-[5rem] xl:max-h-[5.5rem] max-w-[4rem] max-h-[4rem] min-h-[2rem] object-contain opacity-50 hover:opacity-100 hover:scale-125 hover:-translate-y-1 transition-transform duration-300 ease-out "
+                            className="xl:max-w-[5.5rem] xl:max-h-[4.5rem] max-w-[4rem] max-h-[4rem] min-h-[2rem] object-contain opacity-50 hover:opacity-100 hover:scale-105 hover:-translate-y-[.4rem] transition-transform duration-300 ease-out "
                             src={logo}
                             width={134}
                             height={28}
