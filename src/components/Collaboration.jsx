@@ -1,4 +1,4 @@
-import { collabApps, collabContent, collabText , collabText2 } from "../constants";
+import { collabApps, collabContent, collabText2 } from "../constants";
 import Section from "./Section";
 import { brainwaveSymbol, check } from "../assets";
 import Button from "./Button";
